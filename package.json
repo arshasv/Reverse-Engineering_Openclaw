@@ -1,0 +1,17 @@
+{
+  "name": "openclaw-analysis",
+  "version": "0.1.0",
+  "description": "OpenClaw-style protocol-level analysis harness (Playwright-based template)",
+  "main": "scripts/analyze.js",
+  "scripts": {
+    "analyze": "node scripts/analyze.js",
+    "functionality": "node scripts/generate_md.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "^1.42.0",
+    "minimatch": "^9.0.0",
+    "minimist": "^1.2.8"
+  }
+}

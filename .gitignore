@@ -1,0 +1,7 @@
+/openclaw-output/
+node_modules/
+/venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
